@@ -1,8 +1,8 @@
 # Aerospike PHP Client
-[![Build Status](https://travis-ci.org/aerospike/aerospike-client-php.svg?branch=master)](https://travis-ci.org/aerospike/aerospike-client-php)
-[![Latest Release](https://img.shields.io/packagist/v/aerospike/aerospike-client-php.svg)](https://img.shields.io/packagist/v/aerospike/aerospike-client-php.svg)
-[![Downloads](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php.svg)](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php.svg)
-[![License](https://img.shields.io/packagist/l/aerospike/aerospike-client-php.svg)](https://img.shields.io/packagist/l/aerospike/aerospike-client-php.svg)
+[![Build Status](https://travis-ci.org/aerospike/aerospike-client-php5.svg?branch=master)](https://travis-ci.org/aerospike/aerospike-client-php5)
+[![Latest Release](https://img.shields.io/packagist/v/aerospike/aerospike-client-php5.svg)](https://img.shields.io/packagist/v/aerospike/aerospike-client-php5.svg)
+[![Downloads](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php5.svg)](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php5.svg)
+[![License](https://img.shields.io/packagist/l/aerospike/aerospike-client-php5.svg)](https://img.shields.io/packagist/l/aerospike/aerospike-client-php5.svg)
 
 ## Version support
 
@@ -62,13 +62,13 @@ Using [Composer](https://getcomposer.org/) you can download and build the PHP
 extension:
 
     composer require aerospike/aerospike-client-php5 "~3.4"
-    find vendor/aerospike/aerospike-client-php/ -name "*.sh" -exec chmod +x {} \;
-    cd vendor/aerospike/aerospike-client-php/ && sudo composer run-script post-install-cmd
+    find vendor/aerospike/aerospike-client-php5/ -name "*.sh" -exec chmod +x {} \;
+    cd vendor/aerospike/aerospike-client-php5/ && sudo composer run-script post-install-cmd
 
 ### Building Manually
 
 To build the PHP extension manually you will need to fetch the
-[latest release](https://github.com/aerospike/aerospike-client-php/releases/latest)
+[latest release](https://github.com/aerospike/aerospike-client-php5/releases/latest)
 from Github, then run the `build.sh` script in the `src/aerospike/` directory.
 
     cd src/aerospike
