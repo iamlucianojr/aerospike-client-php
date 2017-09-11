@@ -18,7 +18,7 @@
  * @author     Ronen Botzer <rbotzer@aerospike.com>
  * @copyright  Copyright 2013-2016 Aerospike, Inc.
  * @license    http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2
- * @link       https://github.com/aerospike/aerospike-client-php/blob/master/doc/README.md#handling-unsupported-types
+ * @link       https://github.com/aerospike/aerospike-client-php5/blob/master/doc/README.md#handling-unsupported-types
  * @filesource
  */
 
