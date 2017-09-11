@@ -61,7 +61,7 @@ To switch PHP versions [see this gist](https://gist.github.com/rbotzer/198a04f23
 Using [Composer](https://getcomposer.org/) you can download and build the PHP
 extension:
 
-    composer require aerospike/aerospike-client-php "~3.4"
+    composer require aerospike/aerospike-client-php5 "~3.4"
     find vendor/aerospike/aerospike-client-php/ -name "*.sh" -exec chmod +x {} \;
     cd vendor/aerospike/aerospike-client-php/ && sudo composer run-script post-install-cmd
 
