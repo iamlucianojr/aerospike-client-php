@@ -1,5 +1,5 @@
 {
-    "name": "aerospike/aerospike-client-php",
+    "name": "aerospike/aerospike-client-php5",
     "description": "The Aerospike PHP client as a C-extension for PHP",
     "keywords": ["extension","database","aerospike"],
     "homepage": "http://www.aerospike.com/docs/client/php/",
