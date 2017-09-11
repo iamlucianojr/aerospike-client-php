@@ -4,6 +4,7 @@
     "keywords": ["extension","database","aerospike"],
     "homepage": "http://www.aerospike.com/docs/client/php/",
     "license": "Apache-2.0",
+    "version": "3.4.15",
     "authors": [
         {
             "name": "Aerospike",
@@ -20,7 +21,7 @@
         "source": "https://github.com/aerospike/aerospike-client-php"
     },
     "require": {
-        "php": "~5.3 || ~7.0"
+        "php": "~5.3"
     },
     "autoload": {
         "psr-4": {

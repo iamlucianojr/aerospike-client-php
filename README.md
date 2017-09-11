@@ -4,7 +4,9 @@
 [![Downloads](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php.svg)](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php.svg)
 [![License](https://img.shields.io/packagist/l/aerospike/aerospike-client-php.svg)](https://img.shields.io/packagist/l/aerospike/aerospike-client-php.svg)
 
-The Aerospike PHP Client works with PHP 5.3.3+, 5.4, 5.5, 5.6 and 7.0 (tested with 7.0.5)
+## Version support
+
+Note: This client supports PHP versions 5.3.3+, 5.4, 5.5, 5.6. If you are looking for an Aerospike client which supports PHP7, it can be found at the [aerospike-client-php repo](https://github.com/aerospike/aerospike-client-php).
 
 The PHP extension was tested to build on 64-bit
 
@@ -59,7 +61,7 @@ To switch PHP versions [see this gist](https://gist.github.com/rbotzer/198a04f23
 Using [Composer](https://getcomposer.org/) you can download and build the PHP
 extension:
 
-    composer require aerospike/aerospike-client-php "*"
+    composer require aerospike/aerospike-client-php "~3.4"
     find vendor/aerospike/aerospike-client-php/ -name "*.sh" -exec chmod +x {} \;
     cd vendor/aerospike/aerospike-client-php/ && sudo composer run-script post-install-cmd
 
