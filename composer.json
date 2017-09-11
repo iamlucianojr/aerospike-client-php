@@ -4,7 +4,6 @@
     "keywords": ["extension","database","aerospike"],
     "homepage": "http://www.aerospike.com/docs/client/php/",
     "license": "Apache-2.0",
-    "version": "3.4.15",
     "authors": [
         {
             "name": "Aerospike",
@@ -12,13 +11,13 @@
         },
         {
             "name": "Contributors",
-            "homepage": "https://github.com/aerospike/aerospike-client-php/graphs/contributors"
+            "homepage": "https://github.com/aerospike/aerospike-client-php5/graphs/contributors"
         }
     ],
     "support": {
-        "issues": "https://github.com/aerospike/aerospike-client-php/issues?state=open",
+        "issues": "https://github.com/aerospike/aerospike-client-php5/issues?state=open",
         "forum": "http://discuss.aerospike.com/category/client-libraries/php-client",
-        "source": "https://github.com/aerospike/aerospike-client-php"
+        "source": "https://github.com/aerospike/aerospike-client-php5"
     },
     "require": {
         "php": "~5.3"
