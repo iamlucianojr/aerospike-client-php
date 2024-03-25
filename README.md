@@ -1,12 +1,10 @@
 # Aerospike PHP Client
-[![Build Status](https://travis-ci.org/aerospike/aerospike-client-php5.svg?branch=master)](https://travis-ci.org/aerospike/aerospike-client-php5)
-[![Latest Release](https://img.shields.io/packagist/v/aerospike/aerospike-client-php5.svg)](https://img.shields.io/packagist/v/aerospike/aerospike-client-php5.svg)
-[![Downloads](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php5.svg)](https://img.shields.io/packagist/dt/aerospike/aerospike-client-php5.svg)
 [![License](https://img.shields.io/packagist/l/aerospike/aerospike-client-php5.svg)](https://img.shields.io/packagist/l/aerospike/aerospike-client-php5.svg)
 
 ## Version support
+**Note:** a new PHP 8 compatible client for Aerospike Database is at [aerospike/php-client](https://github.com/aerospike/php-client).
 
-Note: This client supports PHP versions 5.3.3+, 5.4, 5.5, 5.6. If you are looking for an Aerospike client which supports PHP7, it can be found at the [aerospike-client-php repo](https://github.com/aerospike/aerospike-client-php).
+Note: This client supported PHP versions 5.3.3+, 5.4, 5.5, 5.6. The legacy Aerospike client for PHP 7, was at [aerospike-community/aerospike-client-php](https://github.com/aerospike-community/aerospike-client-php).
 
 The PHP extension was tested to build on 64-bit
 
@@ -23,8 +21,6 @@ The API described there is the [specification](doc/aerospike.md) for the PHP Cli
 Notes on the internals of the implementation are in [doc/internals.md](doc/internals.md).
 
 [Example PHP code](examples/) can be found in the `examples/` directory.
-
-Full documentation of the Aerospike database is available at http://www.aerospike.com/docs/
 
 ## Dependencies
 
